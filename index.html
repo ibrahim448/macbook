@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+   <main>
+       <section class="container">
+           <div class="row">
+               <div class="col-4 mac-image">
+                   <img src="images/mac.png" alt="" class="img-fluid">
+               </div>
+               <div class="col-8">
+                   <h2>Customize your Blue 24-inch <br>iMac with Apple M1 chip.</h2>
+                   <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency <br> core, 7-core GPU , and 16 core Neural Engine 8GB unified memory 256GB <br> SSD storage Two Thunderbolt/ USB 4 ports Magic Mouse keyboard-use English.</p>
+                   <div class="memory">
+                       <h4>Memory</h4>
+                       <button id="no-memory-cost" class="btn-outline-primary">8GB unified memory</button>
+                       <button id="extra-memory-cost" class="btn-outline-primary">16GB unified memory</button>
+                   </div>
+                   <div class="storage mt-4">
+                       <h4>Storage</h4>
+                       <button id="no-storage-cost" class="btn-outline-primary">25GB SSD storage</button>
+                       <button id="extra-storage-cost" class="btn-outline-primary">512GB SSD storage</button>
+                       <button id="extra-extra-storage-cost" class="btn-outline-primary">1TB SSD storage</button>
+                   </div>
+                   <div class="delivery-option mt-4">
+                       <h4>Choose your delivery option</h4>
+                       <button id="no-delivery-cost" class="btn-outline-primary">Friday,August 25 FREE Prime Delivery</button>
+                       <button id="extra-delivery-charge" class="btn-outline-primary">Friday,August 21 Delivery charge $20</button>
+                   </div>
+                   <div class="status mt-5">
+                       <label class="fw-bold">Best price</label>
+                       <strong class="outline1 fw-bold">$<span id="best-price">1299</span></strong>
+                       <hr class="line">
+                       <label class="fw-bold">Extra memory cost</label>
+                       <strong class="outline2 fw-bold">$<span id="memory-cost">0</span></strong>
+                       <hr class="line">
+                       <label class="fw-bold">Extra storage cost</label>
+                       <strong class="outline3 fw-bold">$<span id="storage-cost">0</span></strong>
+                       <hr class="line">
+                       <label class="fw-bold">Delivery charge</label>
+                       <strong class="outline4 fw-bold">$<span id="delivery-cost">0</span></strong>
+                       <hr class="line4">
+                       <label class="fw-bold">Total price</label>
+                       <strong class="outline5 fw-bold">$<span id="total-price">1299</span></strong>
+                       <hr class="line">
+                   </div>
+                   <br>
+                   <div class="code mb-3">
+                       <h5>Add pomo code</h5>
+                       <input class="border code-input" type="text">
+                       <button class="btn-danger border-0 rounded-1">Apply</button>
+                   </div>
+               </div>
+               <hr last-line>
+               <h1 class="text-align">Total: $<span >1299</span></h1>
+           </div>
+       </section>
+   </main>
+
+
+    <!-- js link -->
+    <script src="js/script.js"></script>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

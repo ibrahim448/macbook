@@ -1,0 +1,50 @@
+.mac-image img{
+    width: 300px;
+}
+.outline1{
+    margin-left: 98px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.outline2{
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.outline3{
+    margin-left: 36px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.outline4{
+    margin-left: 53px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.outline5{
+    margin-left: 92px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.line{
+    margin: 0;
+    width: 30%;
+    border: 1px solid #ddd; 
+}
+.line4{
+    margin: 0;
+    width: 30%;
+    border: 3px solid #000; 
+    border-bottom: none;
+}
+.code-input{
+    outline: none;
+}
+.text-align{
+    margin-left: 263px;
+}
